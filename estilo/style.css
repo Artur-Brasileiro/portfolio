@@ -32,7 +32,7 @@ header{
 }
 
 header h1{
-    padding: 50px 0px ;
+    padding: 35px 0px 25px 0px;
     font-size: 45px;
     font-family: 'Gumball', monospace
 }
@@ -46,6 +46,7 @@ header p{
 nav{
     padding: 17px;
     background-color: var(--cor5);
+    margin-bottom: 40px;
 }
 
 nav a{
@@ -63,4 +64,10 @@ nav a:hover{
 
     border-radius: 6px;
     font-weight: bold;
+}
+
+main img{
+    height: 250px;
+    border-radius: 50%;
+    padding-left: 40px;
 }
