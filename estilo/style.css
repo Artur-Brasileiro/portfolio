@@ -6,6 +6,12 @@
     font-weight: normal;
 }
 
+@font-face {
+    font-family: 'Chique';
+    src: url('../fonte/HighSociety.ttf') format('truetype');
+    font-weight: normal;
+}
+
 :root {
     --cor0: #abb7c9;
     --cor1: #4684DB;
@@ -15,7 +21,8 @@
     --cor5: #00065C;
 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
-    --fonte-gumbal: 'Gumball', 'monosapce';
+    --fonte-gumbal: 'Gumball', 'monospace';
+    --fonte-chique: 'Chique', 'monospace'
 }
 
 *{
@@ -68,20 +75,25 @@ nav a:hover{
     font-weight: bold;
 }
 
-main{
+section{
     background-color: var(--cor0);
     max-width: 1300px;
     margin: auto;
 }
 
-main img{
+section img{
     height: 250px;
     border-radius: 50%;
     padding: 40px;
 }
 
-main h1{
-    padding: 40px;
+section h2{
+    font-family: var(--fonte-chique);
+    padding: 60px 0px 0px 25px;
+    font-size: 35px;
+}
+
+section p{
 }
 
 .container{
