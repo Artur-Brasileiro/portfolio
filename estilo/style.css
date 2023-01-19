@@ -1,17 +1,10 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 @font-face {
     font-family: 'Gumball';
     src: url('../fonte/gumball.TTF') format('truetype');
     font-weight: normal;
 }
-
-@font-face {
-    font-family: 'Chique';
-    src: url('../fonte/HighSociety.ttf') format('truetype');
-    font-weight: normal;
-}
-
 :root {
     --cor0: #abb7c9;
     --cor1: #4684DB;
@@ -22,80 +15,70 @@
 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
     --fonte-gumbal: 'Gumball', 'monospace';
-    --fonte-chique: 'Chique', 'monospace'
 }
-
 *{
     margin: 0px;
     padding: 0px;
 }
-
-body{
+html, body{
+    min-height: 100vh;
     background-color: var(--cor0);
 }
+
+
 
 header{
-    background-image: linear-gradient(to top, var(--cor5), var(--cor2));
+    background-image: linear-gradient(to top, var(--cor4), var(--cor2));
     color: white;
     text-align: center;
-    height: 200px;
 }
-
 header h1{
-    padding: 45px 0px 45px 0px;
-    font-size: 45px;
-    font-family: var(--fonte-gumbal)
+    font-family: var(--fonte-gumbal);
+    font-size: 4vw;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
-
 header p{
-    font-size: 25px;
     font-family: monospace;
-    font-weight: bold;
+    font-size: 2vw;
+    padding-bottom: 35px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
-
 nav{
-    padding: 17px;
-    background-color: var(--cor5);
+    background-color: var(--cor4);
+    padding: 10px;
 }
-
 nav a{
-    margin: 10px;
-    padding: 6px 12px;
-    color: white;
     text-decoration: none;
     font-family: monospace;
-    font-size: 20px;
-    font-weight: bold;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    margin-left: 20px;
+    font-size: 2vw;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
-
 nav a:hover{
     background-color: var(--cor2);
-
-    border-radius: 6px;
-    font-weight: bold;
+    border-radius: 10px;
 }
+
+
 
 section{
-    background-color: var(--cor0);
-    max-width: 1300px;
-    margin: auto;
-}
-
-section img{
-    height: 250px;
-    border-radius: 50%;
-    padding: 40px;
-}
-
-section h2{
-    font-family: var(--fonte-chique);
-    padding: 60px 0px 0px 25px;
-    font-size: 35px;
-}
-
-section p{
-}
-
-.container{
     display: flex;
+}
+section img{
+    height: 18vw;
+    border-radius: 50%;
+    padding: 3vw;
+}
+section h2{
+    padding-top: 3.4vw;
+    font-size: 2.2vw;
+    font-family: 'Sriracha', cursive;
+}
+section p{
+    font-family: 'Sriracha', cursive;
+    font-size: 1.8vw;
 }
