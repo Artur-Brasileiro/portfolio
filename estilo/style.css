@@ -1,0 +1,58 @@
+@charset "UT-8";
+@font-face {
+    font-family: all;
+    src: url(../fonte/rakesly\ bk.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.923) url(../imagens/fundo_preto.png);
+    background-position: center center;
+}
+
+header > h1{
+    font-family: all;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+}
+
+header > p{
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0px 5px 15px 5px;
+    color: white;
+}
+
+section{
+    background: white
+
+}
+
+section > h1{
+    font-family: all;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 3em;
+    padding: 10px;
+    color: black;
+}
+
+section > img#artur{
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+
