@@ -11,8 +11,9 @@
 
 header{
     display: inline-block;
-    background: rgba(0, 0, 0, 0.923) url(../imagens/fundo_preto.png);
-    background-position: center center;
+    background: rgba(0, 0, 0, 0.923) url(../imagens/fundo_laranja.jpg);
+    background-position: right top;
+    
 }
 
 header > h1{
@@ -22,6 +23,7 @@ header > h1{
     font-size: 3em;
     padding: 10px;
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.627);
 }
 
 header > p{
@@ -29,11 +31,13 @@ header > p{
     text-align: center;
     padding: 0px 5px 15px 5px;
     color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.627);
 }
 
-section{
-    background: white
-
+section#habilidades{
+    background: white;
+    width: 98vw;
+    height: 350px;
 }
 
 section > h1{
@@ -45,7 +49,7 @@ section > h1{
     color: black;
 }
 
-section > img#artur{
+section > img#devweb{
     display: block;
     margin: auto;
     height: 200px;
